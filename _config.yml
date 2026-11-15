@@ -23,8 +23,8 @@ email: lzzs122@foxmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  《Digital Design and Computer Architecture: RISC-V Edition》是一部深入探讨数字设计与计算机架构的经典教材，覆盖了从基础概念到硬件描述语言以及关键数字构建模块的广泛内容。本书针对RISC-V架构，通过详细的理论与实践相结合，为读者提供扎实的计算机设计与数字电路知识。内容适合工程师、学生及所有对数字系统设计感兴趣的学习者。 - Lzzs DDCA Notebook
 baseurl: "/DDCA" # the subpath of your site, e.g. /blog
-url: "https://lzzs.fun" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  LzzsG
+url: "https://liukai2019.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: liukai2019
 lang: zh-CN
 
 # Build settings
@@ -93,11 +93,11 @@ search:
 # 自定义导航链接
 aux_links:
   "Home":
-    - "//lzzs.fun"
-  "Notes":
-  - "//lzzs.fun/notebooks"
+    - "/DDCA/"
+  "原作者":
+  - "https://github.com/lzzsG/DDCA"
   "GitHub":
-  - "//github.com/lzzsG/DDCA"
+  - "https://github.com/liukai2019/DDCA"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -120,7 +120,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
 # 编辑此页面在GitHub
-gh_edit_repository: "https://github.com/lzzsG/DDCA" # the github URL for your repo
+gh_edit_repository: "https://github.com/liukai2019/DDCA" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
